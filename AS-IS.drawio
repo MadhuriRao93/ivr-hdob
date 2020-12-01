@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-01T13:46:06.181Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="JkK9X1RVZ0DY45zBQXXP" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-01T13:48:47.391Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="jWmHuH5kUOPtdZ-jCkkC" version="13.10.4" type="github">
   <diagram id="0DkKz2EjrmcNMTaaRU0T" name="Page-1">
-    <mxGraphModel dx="1460" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1460" dy="1721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -411,8 +411,18 @@
         <mxCell id="a1okjNHGLK1KyI7zbIEn-110" value="CINDIX" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="a1okjNHGLK1KyI7zbIEn-109">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="a1okjNHGLK1KyI7zbIEn-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="a1okjNHGLK1KyI7zbIEn-111" target="a1okjNHGLK1KyI7zbIEn-137">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="-50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1okjNHGLK1KyI7zbIEn-143" value="eDoc" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a1okjNHGLK1KyI7zbIEn-136">
+          <mxGeometry x="0.5218" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="a1okjNHGLK1KyI7zbIEn-111" value="eDoc UI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="30" y="238" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="a1okjNHGLK1KyI7zbIEn-112" value="Send to DriView for printing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1950" y="250" width="120" height="60" as="geometry" />
@@ -487,6 +497,30 @@
         <mxCell id="a1okjNHGLK1KyI7zbIEn-135" value="Update table with Status =&#39;Cancel&#39; with Consumer no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="1296" y="560" width="300" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="a1okjNHGLK1KyI7zbIEn-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a1okjNHGLK1KyI7zbIEn-137" target="a1okjNHGLK1KyI7zbIEn-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a1okjNHGLK1KyI7zbIEn-137" value="My Order" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-110.00000000000023" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a1okjNHGLK1KyI7zbIEn-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="a1okjNHGLK1KyI7zbIEn-138">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="-79.57142857142844" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Invokes SVA1" lucidchartObjectId="5ElLfKKwqaxA" id="a1okjNHGLK1KyI7zbIEn-138">
+          <mxCell style="html=1;overflow=block;whiteSpace=wrap;shape=cylinder;size=0.1;anchorPointDirection=0;boundedLbl=1;;whiteSpace=wrap;fontSize=11;fontColor=#333333;spacing=3;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=7;strokeWidth=2;" vertex="1" zOrder="52" parent="1">
+            <mxGeometry x="528" y="-116" width="72" height="72" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="a1okjNHGLK1KyI7zbIEn-140" value="Search with userID&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-110" width="120" height="20" as="geometry" />
+        </mxCell>
+        <UserObject label="Display Result" lucidchartObjectId="ralL7fFfY5tx" id="a1okjNHGLK1KyI7zbIEn-141">
+          <mxCell style="html=1;overflow=block;whiteSpace=wrap;;whiteSpace=wrap;fontSize=11;fontColor=#333333;spacing=0;strokeColor=#5e5e5e;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=7;strokeWidth=2;fillColor=#00CC66;" vertex="1" zOrder="21" parent="1">
+            <mxGeometry x="700" y="-116" width="108" height="84" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
