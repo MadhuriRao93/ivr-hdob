@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T12:50:01.621Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" version="14.4.5" etag="NwhgLhtEbMBIpwtu2AxY" type="github"><diagram id="GRVy7B_PyVHifPLF6LZ1">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-10T10:32:23.195Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="x414envx3eAx7fnXV1HL" version="14.4.5" type="github">
+  <diagram id="GRVy7B_PyVHifPLF6LZ1" name="Page-1">
+    <mxGraphModel dx="1872" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f2qdWsX3PtpNEcIbVF-C-1" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="f2qdWsX3PtpNEcIbVF-C-2" value="Generate S3 pre-signed URL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="140" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f2qdWsX3PtpNEcIbVF-C-3" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="30" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="f2qdWsX3PtpNEcIbVF-C-4" value="Put_Object to &lt;br&gt;/picture folder in picture table" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="135" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f2qdWsX3PtpNEcIbVF-C-5" value="Response : UUID :uuid&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;mediaUrl : htts://files.brillion.geappliances.com/uuid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="80" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f2qdWsX3PtpNEcIbVF-C-6" value="" style="endArrow=classic;html=1;exitX=0.471;exitY=1.167;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="f2qdWsX3PtpNEcIbVF-C-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="280" as="sourcePoint" />
+            <mxPoint x="270" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2qdWsX3PtpNEcIbVF-C-7" value="S3 trigger" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="210" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f2qdWsX3PtpNEcIbVF-C-8" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="f2qdWsX3PtpNEcIbVF-C-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="90" as="sourcePoint" />
+            <mxPoint x="400" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2qdWsX3PtpNEcIbVF-C-9" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="80" as="sourcePoint" />
+            <mxPoint x="210" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2qdWsX3PtpNEcIbVF-C-10" value="Upload API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f2qdWsX3PtpNEcIbVF-C-11" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.505;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="f2qdWsX3PtpNEcIbVF-C-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="80" as="sourcePoint" />
+            <mxPoint x="40" y="77" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
